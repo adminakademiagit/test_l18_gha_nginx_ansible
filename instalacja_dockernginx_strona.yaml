@@ -84,7 +84,7 @@
         name: www-example
         image: nginx
         state: started
-        recreate: true
+        recreate: false
         restart_policy: unless-stopped
         ports:
           - '80:80'
